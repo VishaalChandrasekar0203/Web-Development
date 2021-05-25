@@ -1,0 +1,75 @@
+ADD Bootstrap so that it will add basic stylings to the page (It is incerted in the code)
+
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body class="signin-body">
+   
+   <div class="container signin-container">
+       <div class="row">
+           <div class="col"></div>
+           <div class="col-sm-12 col-md-8">
+           <div class="card signin-card">
+             <div class="card-body">
+              <img src="catdog.jpg" class="img-fluid" class="signin-img">
+                <form class="signin-form">
+                     <div class="form-group">
+                         <label>CARD NUMBER : </label>                       
+                          <input type="email" class="form-control" id="emailinput" aria-describedby="emailHelp">
+                     </div>
+                     <div class="form-group">
+                                <label>EXPIRY DATE : </label>    
+                           <input type="password" class="form-control" id="Passwordinput">
+                      </div>
+                     <div class="form-group">
+                                <label>OPT : </label>    
+                           <input type="password" class="form-control" id="Passwordinput">
+                      </div>
+                      
+                        <button type="submit" class="btn signin-btn btn-lg">PAY</button>
+                       
+                       <div class="form-check">
+                          <label>
+                           <input type="checkbox" class="form-check-input" id="signin-check" >
+                             Remember me <a href="#"> Need Help ? </a></label>
+                       </div>
+                </form>          
+
+             </div>
+            </div>
+            <a href="#"class="creating-account"> Create New Account </a>
+           </div>
+         <div class="col"></div> 
+       </div>
+     
+       
+   </div>
+   
+   
+   
+   
+   
+   
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+    
+    
+  </body>
+</html>
